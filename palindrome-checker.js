@@ -4,7 +4,7 @@ function palindrome(str) {
   //remove whitespaces
   let strStripped = str.replace(/\s+/g, '');
   // transform to lowercase
-  strLowered = strStripped.toLowerCase();
+  let strLowered = strStripped.toLowerCase();
   // console.log(strLowered);
 
   const length = strLowered.length;
